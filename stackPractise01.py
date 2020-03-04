@@ -48,23 +48,71 @@ from pythonds.basic.stack import Stack
 #()匹配
 
 #symblolString  假设 ‘（（））’
-def parChecker(symblolString):
+# def parChecker(symblolString):
+#     s = Stack()
+#     flag = True
+#     index = 0
+#     while index<len(symblolString) and flag:
+#         symbol = symblolString[index]
+#         if symbol == "(":
+#             s.push(symbol)
+#         else:
+#             if s.isEmpty():
+#                 flag = False
+#             else:
+#                 s.pop()
+#         index = index + 1
+#     if flag and s.isEmpty():
+#         return True
+#     else:
+#         return False
+# print(parChecker('(())'))
+# print(parChecker('((())'))
+
+
+
+from pythonds.basic.stack import Stack
+
+def parChecker(symbolString):
     s = Stack()
     flag = True
     index = 0
-    while index<len(symblolString) and flag:
-        symbol = symblolString[index]
-        if symbol == "(":
+    while index < len(symbolString) and flag:
+        symbol = symbolString[index]
+
+        if symbol in '([{':  #{[(
             s.push(symbol)
         else:
             if s.isEmpty():
                 flag = False
             else:
-                s.pop()
-        index = index + 1
+                top=s.pop()   #(
+                start = '([{'
+                end = ')]}'
+
+
+                if not start.index(top) == end.index(symbol):
+                    flag = False
+
+        index = index+1
     if flag and s.isEmpty():
         return True
     else:
         return False
-print(parChecker('(())'))
-print(parChecker('((())'))
+print(parChecker('{[()]}'))
+
+
+
+#栈练习三：十进制转换成二进制
+
+
+
+
+
+
+
+
+
+
+
+
