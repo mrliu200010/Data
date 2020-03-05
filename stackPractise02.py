@@ -12,7 +12,7 @@ from pythonds.basic.stack import Stack
 #         binString = binString + str(s.pop())
 #
 #     return binString
-# print(divide2(233))
+# print(divide2(10))
 
 
 """
@@ -31,7 +31,7 @@ def divide2(desNumber,base):
         binString = binString + digits[s.pop()]
 
     return binString
-print(divide2(100,8))
+print(divide2(233,16))
 
 
 
