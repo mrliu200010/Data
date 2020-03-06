@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dee50531-eb14-434e-9b93-ee99e6843290" name="Default Changelist" comment="" />
+    <list default="true" id="dee50531-eb14-434e-9b93-ee99e6843290" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dequePractise01.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS1-introduction/dequePractise01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pip/_vendor/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/_vendor/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/sdist.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/command/sdist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/glob.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/setuptools/glob.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +22,7 @@
     <SUITE FILE_PATH="coverage/ds$stackPractise01.coverage" NAME="stackPractise01 Coverage Results" MODIFIED="1583303593155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ds$practise.coverage" NAME="practise Coverage Results" MODIFIED="1583112839540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ds$practise02.coverage" NAME="practise02 Coverage Results" MODIFIED="1583221741357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ds$listsum.coverage" NAME="listsum Coverage Results" MODIFIED="1583456523833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS2-recursion" />
     <SUITE FILE_PATH="coverage/ds$stackPractise02.coverage" NAME="stackPractise02 Coverage Results" MODIFIED="1583321254594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ds$queuePractise01_0py.coverage" NAME="queuePractise01.0py Coverage Results" MODIFIED="1583374204034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ds$dequePractise01.coverage" NAME="dequePractise01 Coverage Results" MODIFIED="1583392153234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -29,25 +39,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="py" value="6603" />
+          <entry key="py" value="7028" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="6603" />
+          <entry key="Python" value="7028" />
         </counts>
       </usages-collector>
     </session>
@@ -75,42 +85,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/disorderString.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-563">
+            <state relative-caret-position="481">
               <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding>
                 <marker date="1583198054585" expanded="true" signature="1652:1940" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listPractise1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1293">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <marker date="1583283715119" expanded="true" signature="24:29" ph="..." />
-                <marker date="1583283715119" expanded="true" signature="124:129" ph="..." />
-                <marker date="1583283715119" expanded="true" signature="275:1113" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stackPractise01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="e#459#497#0" expanded="true" />
-                <marker date="1583305496022" expanded="true" signature="95:102" ph="..." />
-                <marker date="1583305496022" expanded="true" signature="811:854" ph="..." />
-                <marker date="1583305496022" expanded="true" signature="1376:2009" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,27 +110,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queuePractise01.0py.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS2-recursion/listsum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+            <state relative-caret-position="452">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
-                <marker date="1583374203906" expanded="true" signature="17:22" ph="..." />
-                <marker date="1583374203906" expanded="true" signature="819:995" ph="..." />
-                <marker date="1583374203906" expanded="true" signature="1700:2472" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dequePractise01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="66" column="27" lean-forward="true" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-              <folding>
-                <marker date="1583392153107" expanded="true" signature="1026:1372" ph="..." />
+                <marker date="1583459481153" expanded="true" signature="42:47" ph="..." />
+                <marker date="1583459481153" expanded="true" signature="197:596" ph="..." />
               </folding>
             </state>
           </provider>
@@ -180,6 +148,7 @@
         <option value="$PROJECT_DIR$/stackPractise02.py" />
         <option value="$PROJECT_DIR$/queuePractise01.0py.py" />
         <option value="$PROJECT_DIR$/dequePractise01.py" />
+        <option value="$PROJECT_DIR$/DS2-recursion/listsum.py" />
       </list>
     </option>
   </component>
@@ -189,9 +158,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="872" />
+    <option name="width" value="1055" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -220,6 +189,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ds\DS1-introduction" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -232,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dequePractise01">
+  <component name="RunManager" selected="Python.listsum">
     <configuration name="dequePractise01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +220,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dequePractise01.py" />
+      <option name="SCRIPT_NAME" value="D:\ds\DS1-introduction\dequePractise01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="listsum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DS2-recursion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS2-recursion/listsum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,28 +265,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\ds\practise01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practise02" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ds" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,19 +341,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.practise" />
-      <item itemvalue="Python.practise02" />
       <item itemvalue="Python.stackPractise01" />
       <item itemvalue="Python.stackPractise02" />
       <item itemvalue="Python.queuePractise01.0py" />
       <item itemvalue="Python.dequePractise01" />
+      <item itemvalue="Python.listsum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.listsum" />
         <item itemvalue="Python.dequePractise01" />
         <item itemvalue="Python.queuePractise01.0py" />
         <item itemvalue="Python.stackPractise02" />
         <item itemvalue="Python.stackPractise01" />
-        <item itemvalue="Python.practise02" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +371,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="840" extended-state="1" />
+    <frame x="698" y="0" width="844" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -410,7 +384,7 @@
       <window_info anchor="bottom" id="Terminal" weight="0.4477401" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40254238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -444,39 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stackPractise02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <marker date="1583321254231" expanded="true" signature="64:340" ph="..." />
-            <marker date="1583321254231" expanded="true" signature="419:665" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queuePractise01.0py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
-          <folding>
-            <marker date="1583374203906" expanded="true" signature="17:22" ph="..." />
-            <marker date="1583374203906" expanded="true" signature="819:995" ph="..." />
-            <marker date="1583374203906" expanded="true" signature="1700:2472" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dequePractise01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="66" column="27" lean-forward="true" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-          <folding>
-            <marker date="1583392153107" expanded="true" signature="1026:1372" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practise01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -494,15 +435,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stackPractise01.py">
+    <entry file="file://$PROJECT_DIR$/disorderString.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="481">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
           <folding>
-            <element signature="e#459#497#0" expanded="true" />
-            <marker date="1583305496022" expanded="true" signature="95:102" ph="..." />
-            <marker date="1583305496022" expanded="true" signature="811:854" ph="..." />
-            <marker date="1583305496022" expanded="true" signature="1376:2009" ph="..." />
+            <marker date="1583198054585" expanded="true" signature="1652:1940" ph="..." />
           </folding>
         </state>
       </provider>
@@ -519,12 +457,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disorderString.py">
+    <entry file="file://$PROJECT_DIR$/queuePractise01.0py.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-563">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="757">
+          <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
           <folding>
-            <marker date="1583198054585" expanded="true" signature="1652:1940" ph="..." />
+            <marker date="1583374203906" expanded="true" signature="17:22" ph="..." />
+            <marker date="1583374203906" expanded="true" signature="819:995" ph="..." />
+            <marker date="1583374203906" expanded="true" signature="1700:2472" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS1-introduction/dequePractise01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <marker date="1583392153107" expanded="true" signature="1026:1372" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackPractise01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2320">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#459#497#0" expanded="true" />
+            <marker date="1583305496022" expanded="true" signature="95:102" ph="..." />
+            <marker date="1583305496022" expanded="true" signature="811:854" ph="..." />
+            <marker date="1583305496022" expanded="true" signature="1376:2009" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackPractise02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <marker date="1583321254231" expanded="true" signature="64:340" ph="..." />
+            <marker date="1583321254231" expanded="true" signature="419:665" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS2-recursion/listsum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <marker date="1583459481153" expanded="true" signature="42:47" ph="..." />
+            <marker date="1583459481153" expanded="true" signature="197:596" ph="..." />
           </folding>
         </state>
       </provider>
