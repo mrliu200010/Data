@@ -44,38 +44,44 @@
     有序列表
     二分查找：每次都从剩余项中元素进行比对
 """
-def binarySearch(alist,item):
-    found = False
-    first = 0
-    last = len(alist)-1
-    while first <= last and not found:
-        #中间项
-        midpoint = (first+last)//2
-        if alist[midpoint] ==item:
-            found = True
-        else:
-            if item <alist[midpoint]:
-                last = midpoint-1
-            else:
-                first = midpoint+1
-    return found
+# def binarySearch(alist,item):
+#     found = False
+#     first = 0
+#     last = len(alist)-1
+#     while first <= last and not found:
+#         #中间项
+#         midpoint = (first+last)//2
+#         if alist[midpoint] ==item:
+#             found = True
+#         else:
+#             if item <alist[midpoint]:
+#                 last = midpoint-1
+#             else:
+#                 first = midpoint+1
+#     return found
+#
+# testList =[17,20,26,30,44,54,55,65,77,93]
+# print(binarySearch(testList,17))
 
-testList =[17,20,26,30,44,54,55,65,77,93]
-print(binarySearch(testList,17))
+
+"""递归实现二分查找"""
+
+# def binarySearch(alist,item):
+#     if len(alist) == 0:
+#         return False
+#     midpoint = len(alist)//2
+#     if alist[midpoint] == item:
+#         return True
+#     else:
+#         if alist[midpoint] > item:
+#             return binarySearch(alist[:midpoint],item)
+#         else:
+#             return binarySearch(alist[midpoint+1:],item)
+# testList =[17,20,26,30,44,54,55,65,77,93]
+# print(binarySearch(testList,17))
 
 
-#递归实现二分查找
+"""
+hash（哈希）查找
+"""
 
-def binarySearch(alist,item):
-    if len(alist) == 0:
-        return False
-    midpoint = len(alist)//2
-    if alist[midpoint] == item:
-        return True
-    else:
-        if alist[midpoint] > item:
-            return binarySearch(alist[:midpoint],item)
-        else:
-            return binarySearch(alist[midpoint+1:],item)
-testList =[17,20,26,30,44,54,55,65,77,93]
-print(binarySearch(testList,17))
