@@ -17,6 +17,7 @@
 #         self.key = rootObj
 #         # 新树的根节点
 #         self.leftChild = None
+
 #         self.rightChild = None
     
 #     # 插入左树
@@ -116,3 +117,57 @@ pt = buildParseTree('( 3 + ( 4 * 5 ) )')
 # pt.postorder()
 
 print(evaluate(pt))
+
+"""
+树的遍历
+"""
+
+
+
+# def preOrder(tree):
+#     if tree:
+#         print(tree.getRootVal())
+#         print(tree.getLeftChild())
+#         print(tree.getRightChild())
+
+
+
+#递归
+def preOrder(self):
+    print(self.key)
+    if self.leftChild:
+        self.leftChild.preOrder()
+    if self.rightChild:
+        self.rightChild.preOrder()
+
+
+#后序
+def postorder(tree):
+    if tree != None:
+        postorder(tree.getLeftChild())
+        postorder(tree.getRightChild())
+        print(tree.getRootVal)
+
+
+from pythonds.trees.binaryTree import BinaryTree
+
+def inorder(tree):
+    if tree != None:
+        inorder(tree.getLeftChild())
+        print(tree.getRootVal())
+        inorder(tree.getRightChild())
+
+tree = BinaryTree('')
+print(inorder(tree))
+
+def printExp(tree):
+    sVal=""
+    if tree:
+        sVal = "(" + printExp(tree.getLeftChild())
+        sVal = sVal + str(tree.getRootVal())
+        sVal = sVal +printExp(tree.getRightChild())+"("
+    return sVal
+
+print(printExp(pt))
+
+
