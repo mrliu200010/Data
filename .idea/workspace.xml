@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dee50531-eb14-434e-9b93-ee99e6843290" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS3-sortandsearch/searchPractise.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS3-sortandsearch/searchPractise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS5-graph/grapPractise.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS5-graph/grapPractise.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +53,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="py" value="15501" />
+          <entry key="py" value="16454" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="15501" />
+          <entry key="Python" value="16454" />
         </counts>
       </usages-collector>
     </session>
@@ -155,15 +155,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DS5-graph/grapPractise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+            <state relative-caret-position="438">
+              <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
               <folding>
-                <marker date="1584065651983" expanded="true" signature="116:123" ph="..." />
-                <marker date="1584065651983" expanded="true" signature="312:408" ph="..." />
-                <marker date="1584065651983" expanded="true" signature="631:711" ph="..." />
-                <marker date="1584065651983" expanded="true" signature="793:804" ph="..." />
-                <marker date="1584065651983" expanded="true" signature="1462:1466" ph="..." />
-                <marker date="1584065651983" expanded="true" signature="2152:2157" ph="..." />
+                <element signature="e#2440#2480#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,8 +205,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="961" />
+    <option name="width" value="968" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -225,6 +220,11 @@
             <path>
               <item name="ds" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="DS5-graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -422,10 +422,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="769" y="0" width="774" height="840" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32365146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3226257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -570,15 +569,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DS5-graph/grapPractise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+        <state relative-caret-position="438">
+          <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
           <folding>
-            <marker date="1584065651983" expanded="true" signature="116:123" ph="..." />
-            <marker date="1584065651983" expanded="true" signature="312:408" ph="..." />
-            <marker date="1584065651983" expanded="true" signature="631:711" ph="..." />
-            <marker date="1584065651983" expanded="true" signature="793:804" ph="..." />
-            <marker date="1584065651983" expanded="true" signature="1462:1466" ph="..." />
-            <marker date="1584065651983" expanded="true" signature="2152:2157" ph="..." />
+            <element signature="e#2440#2480#0" expanded="true" />
           </folding>
         </state>
       </provider>
